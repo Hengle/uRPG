@@ -30,3 +30,5 @@
 *.pyc
 /Server/server_assets/kbengine_ue4_plugins
 /Server/server_assets/kbengine_unity3d_plugins
+/Server/gameserver_assets/kbengine_unity3d_plugins
+/Server/gameserver_assets/kbengine_ue4_plugins
