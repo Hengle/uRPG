@@ -18,6 +18,7 @@ except:
 import xlsxtool
 import xlsxError
 import copy
+import pandas as pd
 
 SYS_CODE = sys.getdefaultencoding()
 
@@ -469,7 +470,11 @@ class xlsx2py(object):
 			s = json.dumps(datas)
 			jsonhandle.write("{%s}" % (s[1:-1]))
 			jsonhandle.close()
-			
+			# 补充csv相关代码
+			arr = list(datas.values())
+			dp = pd.DataFrame(arr)
+			dp.to_csv(self.fileHandler.stream.name + "." + dataName + ".csv",header=True,index=True)
+
 	def writeFoot(self):
 		"""
 		文件尾
