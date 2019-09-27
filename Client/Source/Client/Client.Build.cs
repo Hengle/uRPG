@@ -4,13 +4,23 @@ using UnrealBuildTool;
 
 public class Client : ModuleRules
 {
-	public Client(ReadOnlyTargetRules Target) : base(Target)
+	public Client(ReadOnlyTargetRules Target) 
+		: base(Target)
 	{
+		//PrivatePCHHeaderFile = "Public/Client.h";
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 	
-		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore" });
+		PublicDependencyModuleNames.AddRange(
+			new string[] {
+				"Core",
+				"CoreUObject",
+				"Engine",
+				"InputCore",
+				"KBEnginePlugins"
+			}
+		);
 
-		PrivateDependencyModuleNames.AddRange(new string[] { "KBEnginePlugins" });
+		//PrivateDependencyModuleNames.AddRange(new string[] {  });
 
 		// Uncomment if you are using Slate UI
 		// PrivateDependencyModuleNames.AddRange(new string[] { "Slate", "SlateCore" });

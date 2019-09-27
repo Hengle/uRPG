@@ -5,10 +5,10 @@ using System.Collections.Generic;
 
 public class ClientTarget : TargetRules
 {
-	public ClientTarget(TargetInfo Target) : base(Target)
+	public ClientTarget(TargetInfo Target) 
+		: base(Target)
 	{
 		Type = TargetType.Game;
-
 		ExtraModuleNames.AddRange( new string[] { "Client" } );
 	}
 }
