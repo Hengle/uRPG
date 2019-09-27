@@ -28,14 +28,14 @@
 # /Server/server_assets/kbengine_ue4_plugins
 # /Server/server_assets/kbengine_unity3d_plugins
 *.pyc
-/Server/server_assets/kbengine_ue4_plugins
-/Server/server_assets/kbengine_unity3d_plugins
+# /Server/server_assets/kbengine_ue4_plugins
+# /Server/server_assets/kbengine_unity3d_plugins
 /Client/Build
-/Server/kbe/src/libs
-/Server/kbe/src/lib
-/Server/kbe/src/.vs
-/Server/kbe/bin
-/Server/kbe/tools/server/guiconsole/guiconsole.log
-/Server/kbe/tools/server/guiconsole/guiconsole.log.1
-/Server/kbe/tools/server/guiconsole/guiconsole.lib
-/Server/kbe/tools/server/guiconsole/python37_d.dll
+# /Server/kbe/src/libs
+# /Server/kbe/src/lib
+# /Server/kbe/src/.vs
+# /Server/kbe/bin
+# /Server/kbe/tools/server/guiconsole/guiconsole.log
+# /Server/kbe/tools/server/guiconsole/guiconsole.log.1
+# /Server/kbe/tools/server/guiconsole/guiconsole.lib
+# /Server/kbe/tools/server/guiconsole/python37_d.dll
