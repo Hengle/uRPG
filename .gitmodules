@@ -1,0 +1,6 @@
+[submodule "kbengine"]
+	path = kbengine
+	url = https://github.com/kbengine/kbengine.git
+[submodule "kbengine_ue4_demo"]
+	path = kbengine_ue4_demo
+	url = https://github.com/kbengine/kbengine_ue4_demo.git
