@@ -28,6 +28,7 @@ class Avatar(KBEngine.Proxy,
 		
 		self._destroyTimer = 0
 
+
 	def onClientEnabled(self):
 		"""
 		KBEngine method.

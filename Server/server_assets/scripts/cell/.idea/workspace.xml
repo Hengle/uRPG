@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ac0ddab2-d8d7-4f5e-8ab0-6851541554ec" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/scripts.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../base/components/InventoryComponent.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/CombatComponent.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/MotionComponent.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../entity_defs/components/CombatComponent.def" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Client/Config/DefaultEditor.ini" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Client/Config/DefaultEditor.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Client/Config/DefaultEditorPerProjectUserSettings.ini" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Client/Config/DefaultEditorPerProjectUserSettings.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Client/Config/DefaultEngine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Client/Config/DefaultEngine.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Client/Config/DefaultGame.ini" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Client/Config/DefaultGame.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Client/Config/DefaultInput.ini" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Client/Config/DefaultInput.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/KBEnginePlugins.uplugin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/KBEnginePlugins.uplugin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/Bundle.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/Bundle.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/Bundle.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/Bundle.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/ClientSDKUpdateUI.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/ClientSDKUpdateUI.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/ClientSDKUpdateUI.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/ClientSDKUpdateUI.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/ClientSDKUpdater.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/ClientSDKUpdater.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/ClientSDKUpdater.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/ClientSDKUpdater.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/DataTypes.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/DataTypes.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/DataTypes.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/DataTypes.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EncryptionFilter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EncryptionFilter.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EncryptionFilter.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EncryptionFilter.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/Entity.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/Entity.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityCall.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityCall.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityCall.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityCall.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityComponent.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityComponent.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/Interfaces.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/Interfaces.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/Interfaces.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/Interfaces.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/KBDebug.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/KBDebug.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/KBECommon.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/KBECommon.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/KBECommon.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/KBECommon.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/KBETicker.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/KBETicker.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/KBETicker.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/KBETicker.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/KBETypes.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/KBETypes.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/KBEngine.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/KBEngine.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/KBEngine.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/KBEngine.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/KBEngineArgs.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/KBEngineArgs.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/KBEngineArgs.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/KBEngineArgs.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/KBEnginePlugins.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/KBEnginePlugins.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/KBEnginePlugins.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/KBEnginePlugins.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/KBEnginePluginsPrivatePCH.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/KBEnginePluginsPrivatePCH.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/KBEvent.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/KBEvent.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/KBEventTypes.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/KBEventTypes.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/KBEventTypes.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/KBEventTypes.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/KBVar.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/KBVar.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/KBVar.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/KBVar.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/MemoryStream.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/MemoryStream.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/MemoryStream.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/MemoryStream.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/MessageReader.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/MessageReader.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/MessageReader.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/MessageReader.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/Method.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/Method.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/Method.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/Method.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/NetworkInterfaceBase.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/NetworkInterfaceBase.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/NetworkInterfaceBase.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/NetworkInterfaceBase.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/NetworkInterfaceKCP.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/NetworkInterfaceKCP.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/NetworkInterfaceKCP.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/NetworkInterfaceKCP.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/NetworkInterfaceTCP.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/NetworkInterfaceTCP.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/NetworkInterfaceTCP.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/NetworkInterfaceTCP.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/ObjectPool.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/ObjectPool.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/PacketReceiverBase.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/PacketReceiverBase.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/PacketReceiverBase.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/PacketReceiverBase.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/PacketReceiverKCP.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/PacketReceiverKCP.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/PacketReceiverKCP.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/PacketReceiverKCP.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/PacketReceiverTCP.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/PacketReceiverTCP.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/PacketReceiverTCP.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/PacketReceiverTCP.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/PacketSenderBase.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/PacketSenderBase.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/PacketSenderBase.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/PacketSenderBase.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/PacketSenderKCP.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/PacketSenderKCP.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/PacketSenderKCP.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/PacketSenderKCP.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/PacketSenderTCP.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/PacketSenderTCP.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/PacketSenderTCP.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/PacketSenderTCP.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/Property.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/Property.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/Property.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/Property.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/ScriptModule.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/ScriptModule.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/ScriptModule.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/ScriptModule.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/ikcp.c" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/ikcp.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/ikcp.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/ikcp.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/KBEnginePlugins.Build.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Client/Plugins/kbengine_ue4_plugins/Source/KBEnginePlugins/KBEnginePlugins.Build.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Client/Source/Client.Target.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Client/Source/Client.Target.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Client/Source/Client/Client.Build.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Client/Source/Client/Client.Build.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Client/Source/ClientEditor.Target.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Client/Source/ClientEditor.Target.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../base/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../base/.idea/base.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/cell.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../base/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../base/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../base/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../base/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../base/Avatar.py" beforeDir="false" afterPath="$PROJECT_DIR$/../base/Avatar.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="ProjectId" id="1RQMHwsDxXLsLQIxPCbqNvg03kf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/components" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jeremyLee\Documents\uRPG\Server\server_assets\scripts\cell\components" />
+      <recent name="C:\Users\jeremyLee\Documents\uRPG\Server\server_assets\scripts\entity_defs\components" />
+      <recent name="C:\Users\jeremyLee\Documents\uRPG\Server\server_assets\scripts\base\components" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ac0ddab2-d8d7-4f5e-8ab0-6851541554ec" name="Default Changelist" comment="" />
+      <created>1569594782396</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1569594782396</updated>
+      <workItem from="1569594783601" duration="2090000" />
+      <workItem from="1569621275521" duration="2391000" />
+      <workItem from="1569645955347" duration="1155000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
