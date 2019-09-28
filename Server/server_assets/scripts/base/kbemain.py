@@ -18,7 +18,8 @@ def onBaseAppReady(isBootstrap):
 	
 	if isBootstrap:
 		# 创建spacemanager
-		KBEngine.createEntityLocally( "Spaces", {} )
+		# KBEngine.createEntityLocally( "Spaces", {} )
+		KBEngine.createEntityLocally( "FirstSpace", {} )
 
 def onReadyForShutDown():
 	"""
@@ -53,8 +54,9 @@ def onReadyForLogin(isBootstrap):
 		INFO_MSG('initProgress: completed!')
 		return 1.0
 		
-	spacesEntity = KBEngine.globalData["Spaces"]
-	
+	# spacesEntity = KBEngine.globalData["Spaces"]
+	spacesEntity = KBEngine.globalData["FirstSpace"]
+
 	tmpDatas = list(d_spaces.datas.keys())
 	count = 0
 	total = len(tmpDatas)

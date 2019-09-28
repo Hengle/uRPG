@@ -10,7 +10,8 @@
 	<Monster hasClient="true"></Monster>
 	<NPC hasClient="true"></NPC>
 	<Gate hasClient="true"></Gate>
-	<FristEntity hasClient="true"></FristEntity>
+	<FirstEntity hasClient="true"></FirstEntity>
+	<FirstSpace/>
 	<Spaces/>
 	<Space/>
 	<SpaceDuplicate/>
