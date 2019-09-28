@@ -1,4 +1,4 @@
-#include "AccountBase.h"
+#include "FirstSpaceBase.h"
 #include "KBVar.h"
 #include "EntityDef.h"
 #include "ScriptModule.h"
@@ -14,53 +14,53 @@ namespace KBEngine
 
 
 
-void AccountBase::onComponentsEnterworld()
+void FirstSpaceBase::onComponentsEnterworld()
 {
 }
 
-void AccountBase::onComponentsLeaveworld()
+void FirstSpaceBase::onComponentsLeaveworld()
 {
 }
 
-void AccountBase::onGetBase()
+void FirstSpaceBase::onGetBase()
 {
 	if(pBaseEntityCall)
 		delete pBaseEntityCall;
 
-	pBaseEntityCall = new EntityBaseEntityCall_AccountBase(id(), className());
+	pBaseEntityCall = new EntityBaseEntityCall_FirstSpaceBase(id(), className());
 }
 
-void AccountBase::onGetCell()
+void FirstSpaceBase::onGetCell()
 {
 	if(pCellEntityCall)
 		delete pCellEntityCall;
 
-	pCellEntityCall = new EntityCellEntityCall_AccountBase(id(), className());
+	pCellEntityCall = new EntityCellEntityCall_FirstSpaceBase(id(), className());
 }
 
-void AccountBase::onLoseCell()
+void FirstSpaceBase::onLoseCell()
 {
 	delete pCellEntityCall;
 	pCellEntityCall = NULL;
 }
 
-EntityCall* AccountBase::getBaseEntityCall()
+EntityCall* FirstSpaceBase::getBaseEntityCall()
 {
 	return pBaseEntityCall;
 }
 
-EntityCall* AccountBase::getCellEntityCall()
+EntityCall* FirstSpaceBase::getCellEntityCall()
 {
 	return pCellEntityCall;
 }
 
-void AccountBase::onRemoteMethodCall(MemoryStream& stream)
+void FirstSpaceBase::onRemoteMethodCall(MemoryStream& stream)
 {
 }
 
-void AccountBase::onUpdatePropertys(MemoryStream& stream)
+void FirstSpaceBase::onUpdatePropertys(MemoryStream& stream)
 {
-	ScriptModule* sm = *EntityDef::moduledefs.Find("Account");
+	ScriptModule* sm = *EntityDef::moduledefs.Find("FirstSpace");
 
 	while(stream.length() > 0)
 	{
@@ -136,9 +136,9 @@ void AccountBase::onUpdatePropertys(MemoryStream& stream)
 	}
 }
 
-void AccountBase::callPropertysSetMethods()
+void FirstSpaceBase::callPropertysSetMethods()
 {
-	ScriptModule* sm = EntityDef::moduledefs["Account"];
+	ScriptModule* sm = EntityDef::moduledefs["FirstSpace"];
 	TMap<uint16, Property*>& pdatas = sm->idpropertys;
 
 	FVector oldval_direction = direction;
@@ -185,14 +185,14 @@ void AccountBase::callPropertysSetMethods()
 
 }
 
-AccountBase::AccountBase():
+FirstSpaceBase::FirstSpaceBase():
 	Entity(),
 	pBaseEntityCall(NULL),
 	pCellEntityCall(NULL)
 {
 }
 
-AccountBase::~AccountBase()
+FirstSpaceBase::~FirstSpaceBase()
 {
 	if(pBaseEntityCall)
 		delete pBaseEntityCall;
@@ -202,11 +202,11 @@ AccountBase::~AccountBase()
 
 }
 
-void AccountBase::attachComponents()
+void FirstSpaceBase::attachComponents()
 {
 }
 
-void AccountBase::detachComponents()
+void FirstSpaceBase::detachComponents()
 {
 }
 

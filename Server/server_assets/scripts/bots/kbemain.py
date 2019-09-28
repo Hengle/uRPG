@@ -10,11 +10,18 @@ def onInit(isReload):
 	@type isReload: bool
 	"""
 	DEBUG_MSG('onInit::isReload:%s' % isReload)
-	
+
+def onStart():
+	"""
+	KBEngine method.
+	在onInitialize调用之后， 准备开始游戏时引擎调用这个接口.
+	"""
+	pass
+
 def onFinish():
 	"""
 	KBEngine method.
-	引擎将要关闭时， 引擎调用这个接口
+	客户端将要关闭时， 引擎调用这个接口
 	可以在此做一些游戏资源清理工作
 	"""
 	pass

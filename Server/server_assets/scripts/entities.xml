@@ -6,14 +6,6 @@
 	-->
 	
 	<Account hasClient="true"></Account>
-	<Avatar hasClient="true"></Avatar> <!-- <Avatar hasCell="true" hasBase="true" hasClient="true"></Avatar> -->
-	<Monster hasClient="true"></Monster>
-	<NPC hasClient="true"></NPC>
-	<Gate hasClient="true"></Gate>
 	<FirstEntity hasClient="true"></FirstEntity>
 	<FirstSpace/>
-	<Spaces/>
-	<Space/>
-	<SpaceDuplicate/>
-	<SpawnPoint/>	
 </root>
