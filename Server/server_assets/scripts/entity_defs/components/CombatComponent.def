@@ -1,0 +1,54 @@
+<root>
+	<!-- <Parent>	TestBase	</Parent> -->
+
+	<Properties>
+		<state>
+			<Type>			INT32						</Type>
+			<Flags>			ALL_CLIENTS					</Flags>
+			<Default>		100							</Default>
+			<Persistent>	true						</Persistent> 
+		</state>
+
+		<own>
+			<Type>			INT32						</Type>
+			<Flags>			CELL_PUBLIC_AND_OWN			</Flags>
+			<Persistent>	true						</Persistent> 
+			<Default>		1001						</Default>
+		</own>
+
+		<EntityList>
+			<Type>ENTITYID_LIST</Type>
+			<Flage>CELL_PRIVATE</Flage>
+			<Default>[]</Default>
+		</EntityList>
+
+	</Properties>
+	
+	<CellMethods>
+		<recvDamage>
+			<Arg>	ENTITY_ID									</Arg>
+			<Arg>	SKILLID										</Arg>
+			<Arg>	DAMAGE_TYPE									</Arg>
+			<Arg>	HP											</Arg>
+		</recvDamage>
+
+		<addEnemy>
+			<Arg>	ENTITY_ID									</Arg>
+			<Arg>	ENMITY										</Arg>
+		</addEnemy>
+	</CellMethods>
+
+	<BaseMethods>
+
+	</BaseMethods>
+
+	<ClientMethods>
+		<recvDamage>
+			<Arg>	ENTITY_ID									</Arg>
+			<Arg>	SKILLID										</Arg>
+			<Arg>	DAMAGE_TYPE									</Arg>
+			<Arg>	HP											</Arg>
+		</recvDamage>
+	</ClientMethods>
+</root>
+
