@@ -8,4 +8,5 @@
 	<Account hasClient="true"></Account>
 	<FirstEntity hasClient="true"></FirstEntity>
 	<FirstSpace/>
+	<SpaceManager/>
 </root>

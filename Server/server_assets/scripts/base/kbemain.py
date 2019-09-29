@@ -13,7 +13,10 @@ def onBaseAppReady(isBootstrap):
 	INFO_MSG('onBaseAppReady: isBootstrap=%s, appID=%s, bootstrapGroupIndex=%s, bootstrapGlobalIndex=%s' % \
 	 (isBootstrap, os.getenv("KBE_COMPONENTID"), os.getenv("KBE_BOOTIDX_GROUP"), os.getenv("KBE_BOOTIDX_GLOBAL")))
 
-	KBEngine.createEntityLocally("FirstSpace",{})
+	if isBootstrap:
+		# 创建spaceManager
+		KBEngine.createEntityLocally("SpaceManager",{})
+	# KBEngine.createEntityLocally("FirstSpace",{})
 
 def onReadyForLogin(isBootstrap):
 	"""
@@ -23,6 +26,13 @@ def onReadyForLogin(isBootstrap):
 	@param isBootstrap: 是否为第一个启动的baseapp
 	@type isBootstrap: BOOL
 	"""
+	if not isBootstrap:
+		INFO_MSG('initProgress: completed!')
+		return 1.0
+
+	spaceManager = KBEngine.globalData["SpaceManager"]
+
+	INFO_MSG('initProgress: completed!')
 	return 1.0
 
 def onReadyForShutDown():

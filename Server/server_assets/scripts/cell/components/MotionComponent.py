@@ -42,3 +42,4 @@ class Test(KBEngine.EntityComponent):
 			return False
 		if time.time() < self.nextMoveTime:
 			return False
+
