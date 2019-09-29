@@ -21,9 +21,6 @@ def onTick(timerID):
 	"""
 	INFO_MSG('onTick()')
 
-	# 测试数据库查询
-	KBEngine.executeRawDatabaseCommand("select * from kbe_accountinfos limit 3;", onSqlCallback)
-
 def onDBMgrShutDown():
 	"""
 	KBEngine method.
@@ -39,6 +36,3 @@ def onSelectAccountDBInterface(accountName):
 	利用该接口可以根据accountName来决定账号应该存储在哪个数据库。
 	"""
 	return "default"
-
-def onSqlCallback(result, rows, insertid, error):
-	DEBUG_MSG('onSqlCallback: result=%s, rows=%s, insertid=%s, error=%s' % (str(result), str(rows), str(insertid), str(error)))

@@ -58,74 +58,13 @@
 		
 		<databaseInterfaces>
 			<default>
-				<!-- 数据库账号验证 
-					（Database auth)
-				-->
-				<auth>  
-					<username> root </username>									<!-- Type: String -->
-					<password> Lwm@1123581321 </password>							<!-- Type: String -->
-					
-					<!-- 为true则表示password是加密(rsa)的, 可防止明文配置 
-						(is true, password is RSA)
-					-->
-					<encrypt> true </encrypt>
-				</auth>
 				<!-- <host> localhost </host> -->
 				<!-- <databaseName> kbe </databaseName> -->
-				<!-- 数据库账号验证 
-					（Database auth)
-				-->
-				<auth>  
-					<username> root </username>									<!-- Type: String -->
-					<password> Lwm@1123581321 </password>							<!-- Type: String -->
-					
-					<!-- 为true则表示password是加密(rsa)的, 可防止明文配置 
-						(is true, password is RSA)
-					-->
-					<encrypt> true </encrypt>
-				</auth>
 			</default>
 		</databaseInterfaces>
 	</dbmgr>
 	
-	<cellapp>
-	</cellapp>
-	
 	<baseapp>
-		<!-- 自动存档的时间周期(秒)
-			（Automatic archiving time period(secs)） 
-		-->
-		<archivePeriod> 300 </archivePeriod> 							<!-- Type: Float -->
-		
-		<!-- 自动备份的时间(秒)
-			（Automatic backup time period(secs)） 
-		-->
-		<backupPeriod> 300 </backupPeriod>							<!-- Type: Float -->
+		<backupPeriod> 500 </backupPeriod>
 	</baseapp>
-	
-	<cellappmgr>
-	</cellappmgr>
-	
-	<baseappmgr>
-	</baseappmgr>
-	
-	<loginapp>
-	</loginapp>	
-	
-	<machine>
-	</machine>
-	
-	<bots>
-		<!-- 默认启动进程后自动添加这么多个机器人 
-			(After starting the process, automatically add some robots)
-			totalCount	： 添加总数量			(Add the total-number)
-			tickTime	： 每次添加所用时间(s)	(Interval time-secs)
-			tickCount	： 每次添加数量			(Each time you add the number of)
-		-->
-		<defaultAddBots> 
-			<totalCount> 10  </totalCount>								<!-- Type: Integer -->
-			<tickTime> 0.1  </tickTime>									<!-- Type: Float -->
-			<tickCount> 5  </tickCount>									<!-- Type: Integer -->
-		</defaultAddBots>
-	</bots>
 </root>
